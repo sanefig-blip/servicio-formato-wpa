@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <<link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Servicios del Cuerpo de Bomberos de la Ciudad</title>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -67,7 +67,7 @@
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js')
+          navigator.serviceWorker.register('sw.js')
             .then(registration => {
               console.log('ServiceWorker registration successful with scope: ', registration.scope);
             })
@@ -78,6 +78,6 @@
       }
     </script>
     <!-- Change script type to text/babel for Babel to process it -->
-    <script type="text/babel" data-type="module" src="/index.tsx"></script>
+    <script type="text/babel" data-type="module" src="index.tsx"></script>
   </body>
 </html>
